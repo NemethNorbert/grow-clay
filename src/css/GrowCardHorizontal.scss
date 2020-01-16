@@ -1,0 +1,9 @@
+.grow-card.grow-card-horizontal.card {
+    &.interactive {
+        box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.08);
+    }
+
+    .grow-btn {
+        margin-top: 0.25rem;
+    }
+}

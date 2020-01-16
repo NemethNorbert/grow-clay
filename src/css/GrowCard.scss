@@ -1,0 +1,160 @@
+.grow-card.card{
+	box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.08);
+	border-bottom: 0.6rem solid #fff;
+	font-size: 14px;
+
+	&.interactive {
+		box-shadow: 0 0 0 0;
+	}
+
+	&.interactive:hover {
+		box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.08);
+	}
+
+	.card-body {
+		padding-bottom: 0.5rem;
+	}
+
+	.grow-btn {
+		padding: 0.5rem 0.5rem;
+
+		.lexicon-icon-star-o,
+		.lexicon-icon-star {
+			fill: #FDCC4A;
+		}
+
+		.thumbs-up {
+			fill: #B3CDFF;
+		}
+	
+		.thumbs-up-liked {
+			fill: #0B5FFF;
+		}
+	}
+
+	.grow-card-content {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.grow-card-footer {
+		padding-bottom: 0.1rem;
+	}
+
+	.grow-card-footer {
+		font-size: 14px;
+
+		.lexicon-icon {
+			margin-bottom: 0.1rem;
+		}
+	}
+
+	.grow-author {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.grow-card-title {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+	.grow-card-label {
+		font-size: 10px;
+		text-transform: uppercase;
+		margin-top: 0.3rem;
+	}
+
+	.grow-card-section {
+		margin-bottom: 0.25rem;
+	}
+
+    .grow-icon {
+        padding: 0.5rem 0.5rem;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+
+        .lexicon-icon {
+            margin-top: 0.15rem;
+        }
+
+		.lexicon-icon-info-book {
+			fill: #8c66b2
+		}
+
+		.lexicon-icon-user {
+			fill: #47C6F5;
+		}
+
+		.lexicon-icon-share {
+			fill: #42BFC2;
+		}
+
+        .lexicon-icon-sheets {
+			fill: #fa8072;
+        }
+    }
+
+	.grow-user-profile {
+		padding: 1rem 0rem 0rem 1rem;
+	}
+
+	.grow-user-name {
+		padding: 1rem 0rem 0rem 0.5rem;
+	}
+
+	@media only screen and (max-width: 756px) {
+		box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.08);
+	}
+}
+
+.card-excellence {
+	.grow-card-footer {
+		color: #E55E75;
+	}
+
+	&.interactive:hover {
+		border-color: #E55E75;
+	}
+}
+
+.card-learn {
+	.grow-card-footer {
+		color: #503690;
+	}
+
+	&.interactive:hover {
+		border-color: #503690;
+	}
+}
+
+.card-people {
+	.grow-card-footer {
+		color: #47C6F5;
+	}
+
+	&.interactive:hover {
+		border-color: #47C6F5;
+	}
+}
+
+.card-share {
+	.grow-card-footer {
+		color: #42BFC2;
+	}
+
+	&.interactive:hover {
+		border-color: #42BFC2;
+	}
+}
