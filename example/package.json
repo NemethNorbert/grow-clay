@@ -6,9 +6,11 @@
   "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-scripts": "^1.1.4",
+    "@clayui/icon": "^3.0.1",
+    "@clayui/css": "^3.3.0",
     "grow-clay": "link:.."
   },
   "scripts": {
