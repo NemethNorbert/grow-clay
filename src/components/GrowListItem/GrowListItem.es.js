@@ -16,7 +16,7 @@ export default class GrowListItem extends React.Component {
 
     _handleStarClick() {
         let data = {
-            assetEntryId: this.props.assetEntryId,
+           ...this.props,
             star: !this.props.star
         };
 
@@ -25,7 +25,7 @@ export default class GrowListItem extends React.Component {
 
     _handleLikeClick() {
         let data = {
-            assetEntryId: this.props.assetEntryId,
+            ...this.props,
             like: !this.props.like
         };
 

@@ -17,7 +17,7 @@ export default class GrowCard extends React.Component {
 
     _handleStarClick() {
         let data = {
-            assetEntryId: this.props.assetEntryId,
+            ...this.props,
             star: !this.props.star
         };
 
@@ -26,7 +26,7 @@ export default class GrowCard extends React.Component {
 
     _handleLikeClick() {
         let data = {
-            assetEntryId: this.props.assetEntryId,
+            ...this.props,
             like: !this.props.like
         };
 
@@ -102,7 +102,7 @@ export default class GrowCard extends React.Component {
                         {this.props.articleTitle}
                     </a>
                 </ClayCard.Description>
-                <span className="card-text grow-card-content">
+                <div className="card-text grow-card-content">
                     <TextTruncate
                         line={4}
                         truncateText="…"
@@ -110,7 +110,7 @@ export default class GrowCard extends React.Component {
                         className="grow-card-section"
                     >
                     </TextTruncate>
-                </span>
+                </div>
                 <div className="autofit-row autofit-padded">
                     
                     <div className="autofit-section autofit-col-expand">
