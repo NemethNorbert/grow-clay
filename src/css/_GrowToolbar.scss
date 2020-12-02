@@ -1,0 +1,74 @@
+@import "variables";
+
+.blue-color {
+	color: $blueColor !important;
+}
+
+.white-background-color {
+	background-color: $whiteColor !important;
+}
+
+.navbar-filter {
+    font-weight: 550;
+}
+
+a.link-icon, a.taglib-icon:hover, a.taglib-icon.btn:focus {
+	text-decoration: none !important; 
+}
+
+.filter-control {
+	background-color: #f8f9fa;
+	background-clip: border-box;
+	border-top-color: #e7e7ed;
+	border-left-color: #e7e7ed;
+	border-bottom-color: #80acff;
+	border-style: solid;
+	border-bottom-width: 0.0625rem;
+	border-left-width: 0.0625rem;
+	border-right-width: 0;
+	border-top-width: 0.0625rem;
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	height: 2.5rem;
+	min-width: 0;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.search-control {
+	border-left-width: 0 !important;
+	border-right-width: 0 !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+.padding-right {
+	padding-right: 0.5rem;
+}
+
+.custom-control label {
+	margin-left: 0.45rem;
+	color: #6c757d;
+	font-weight: normal;
+}
+
+.custom-control-input:checked+.custom-control-label {
+	color: #6c757d;
+	font-weight: 600;
+}
+
+.management-bar .dropdown-menu {
+    padding-left: 1rem;
+    padding-right: 1rem;
+	box-shadow: none;
+	left: -17px;
+    top: 31px;
+}
+
+.custom-control-group-label-text {
+	color: #6c757d;
+	font-weight: 700;
+}
+

@@ -1,0 +1,41 @@
+.grow-vertical-nav {
+    .grow-label-icon {
+        color: #0B63CE;
+        margin-right: 0.5rem;
+    }
+
+    .grow-label {
+        font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 23px;
+    }
+
+    .grow-link {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .line {
+        border: 1px solid #E7E7ED;
+    }
+    .nav-link {
+        padding: 0.625rem 0rem;
+        width: 100%;
+    }
+    .collapse-icon {
+        .collapse-icon-closed, .collapse-icon-open {
+            float: right;
+            margin-top: 0.5rem;
+            right: 0;
+            top: 0;
+            position: relative;
+        }
+    }
+    .nav-link:hover,.nav-link:active,.nav-link:focus {
+        background-color: rgba(0, 0, 0, 0)!important;
+    }
+}
