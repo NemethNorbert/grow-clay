@@ -1,7 +1,7 @@
 import React from "react";
 import ClayList from '@clayui/list';
 import "@clayui/css/lib/css/atlas.css";
-import {GrowCard, GrowCardHorizontal, GrowListItem} from "grow-clay";
+import {GrowCard, GrowCardHorizontal, GrowListItem, GrowVerticalNav, GrowVerticalTagsNav} from "grow-clay";
 
 const spritemap ="http://localhost:3000/icons.svg";
 
@@ -347,6 +347,24 @@ const App = ()=> {
               tagCount={9}
               tagLength={20} />
 					</ClayList>
+				</div>
+				<div>
+					<GrowVerticalNav
+						spritemap={spritemap}
+						label={"Related Pages"}
+						labelIcon={"pages-tree"}
+						items={[{label:"This is the related Page alright", url:"https://www.google.com/"},{label:"This is another related Page alright", url:"https://www.google.com/"}]}
+					/>
+				</div>
+				<div>
+					<GrowVerticalTagsNav
+						spritemap={spritemap}
+						label={"Tags"}
+						labelIcon={"tag"}
+						items={["badge", "gamification", "respect", "test1", "test2"]}
+						tagLength={20}
+						tagCount={9}
+					/>
 				</div>
 			</div>
 		);
