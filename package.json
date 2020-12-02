@@ -1,6 +1,6 @@
 {
   "name": "grow-clay",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Grow UI based on Clay Components",
   "author": "NemethNorbert",
   "license": "MIT",
@@ -22,7 +22,6 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "prop-types": "15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
